@@ -1,6 +1,6 @@
-# LMDB AstroJS Project
+# LMDB NextJS Project
 
-Web application to explore movies/TV shows, developed with Astro and React.
+Web application to explore movies/TV shows, developed with NextJS and React.
 
 ## Main Features
 - Multimedia content search
