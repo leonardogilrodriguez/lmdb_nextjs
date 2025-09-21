@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, FormMain, FormWrapper, Logo } from './Searcher.styles';
 import { useRouter } from 'next/router';
 
-const Searcher = (props) => {
+const Searcher = () => {
 
     const router = useRouter();
     const { query } = router.query
