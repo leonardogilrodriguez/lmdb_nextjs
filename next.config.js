@@ -1,6 +1,22 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['image.tmdb.org','www.themoviedb.org']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.themoviedb.org',
+        port: '',
+        pathname: '/**',
+      }
+    ],
   },
+  compiler: {
+    styledComponents: true,
+  }
 }

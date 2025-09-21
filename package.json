@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.4.4",
+    "@babel/core": "^7.28.4",
+    "@babel/runtime": "^7.28.4",
+    "babel-preset-next": "^1.4.0",
+    "babel-runtime": "^6.26.0",
+    "next": "^15.5.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-horizontal-scrolling-menu": "^2.5.0",
